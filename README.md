@@ -1,2 +1,3 @@
 # nissesettings
-this is just a separate of seting and config files
+This is just a repository of settings and config files.
+Use these however you please
