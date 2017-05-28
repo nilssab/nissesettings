@@ -6,11 +6,6 @@
 (setq visible-bell 1)
 (set-default 'truncate-lines t)
 
-;;non default packages related kept to be easy to install local packages 
-;(require 'package)
-;(dd-to-list 'package-archives
-;             '("melpa-stable" . "http://stable.melpa.org/packages/") t)
-;(global-set-key (kbd "C-f g") 'magit-status)
 
 ;;Note on some removed movement bindings
 ;this config removes most movement keys, since I have them on separate layers
