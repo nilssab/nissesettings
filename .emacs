@@ -15,14 +15,28 @@
 (global-set-key (kbd "C-f") 'Control-X-prefix)
 (global-set-key (kbd "M-f") 'execute-extended-command)
 (global-set-key (kbd "<f5>") 'shell)
+(global-set-key (kbd "C-;") 'undo)
 (global-set-key (kbd "C-a") 'isearch-backward)
+(global-set-key (kbd "C-j") 'yank)
+(global-set-key (kbd "M-j") 'yank-pop)
+(global-set-key (kbd "C-k") 'kill-region)
+(global-set-key (kbd "M-k") 'copy-region-as-kill)
+(global-set-key (kbd "C-l") 'kill-whole-line)
+(global-set-key (kbd "M-l") 'kill-line)
+;(global-set-key (kbd "C-k") 'copy-region-as-kill)
 
 ;buffer menu related
 (global-set-key (kbd "C-f C-b") 'buffer-menu)
 
+
+
 ;window management related
 (global-set-key (kbd "C-o") 'other-window)
 (global-set-key (kbd "C-p") (kbd "C-u -1 C-o"))
+(global-set-key (kbd "M-o") 'other-frame)
+(global-set-key (kbd "M-p") 'new-frame)
+
+(global-set-key (kbd "C-y") 'recenter-top-bottom)
 (global-set-key (kbd "<C-home>") 'shrink-window-horizontally)
 (global-set-key (kbd "<C-end>") 'enlarge-window-horizontally)
 (global-set-key (kbd "<C-prior>") 'enlarge-window)
