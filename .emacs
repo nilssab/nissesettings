@@ -13,9 +13,8 @@
 
 ;;Global shortcuts keymap related
 (global-set-key (kbd "C-f") 'Control-X-prefix)
-(global-set-key (kbd "M-f") 'execute-extended-command)
 (global-set-key (kbd "<f5>") 'shell)
-(global-set-key (kbd "C-;") 'undo)
+(global-set-key (kbd "C-z") 'undo)
 (global-set-key (kbd "C-a") 'isearch-backward)
 (global-set-key (kbd "C-j") 'yank)
 (global-set-key (kbd "M-j") 'yank-pop)
@@ -23,7 +22,8 @@
 (global-set-key (kbd "M-k") 'copy-region-as-kill)
 (global-set-key (kbd "C-l") 'kill-whole-line)
 (global-set-key (kbd "M-l") 'kill-line)
-;(global-set-key (kbd "C-k") 'copy-region-as-kill)
+(global-set-key (kbd "C-x") 'eval-defun)
+(global-set-key (kbd "C-m") 'set-mark-command)
 
 ;buffer menu related
 (global-set-key (kbd "C-f C-b") 'buffer-menu)
