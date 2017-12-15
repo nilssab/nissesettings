@@ -13,6 +13,7 @@
 
 ;;Global shortcuts keymap related
 (global-set-key (kbd "C-f") 'Control-X-prefix)
+;(global-set-key (kbd "RET") 'newline)
 (global-set-key (kbd "<f5>") 'shell)
 (global-set-key (kbd "C-z") 'undo)
 (global-set-key (kbd "C-a") 'isearch-backward)
