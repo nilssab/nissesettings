@@ -5,7 +5,7 @@
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
 (setq visible-bell 1)
-(set-default 'truncate-lines t
+(set-default 'truncate-lines t)
 
 
 ;;Note on some removed movement bindings
