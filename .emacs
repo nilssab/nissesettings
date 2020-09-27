@@ -6,6 +6,7 @@
 (scroll-bar-mode -1)
 (setq visible-bell 1)
 (set-default 'truncate-lines t)
+(delete-selection-mode 1)
 
 (require 'package)
 ;(add-to-list 'package-archives
@@ -22,8 +23,9 @@
 ;;Global shortcuts keymap related
 (global-set-key (kbd "C-f") 'Control-X-prefix)
 (global-set-key (kbd "C-z") 'undo)
-
 (global-set-key (kbd "C-a") 'isearch-backward)
+(global-set-key (kbd "C-d") 'query-replace)
+(global-set-key (kbd "C-M-d") 'query-replace-regexp)
 (global-set-key (kbd "C-j") 'yank)
 (global-set-key (kbd "M-j") 'yank-pop)
 (global-set-key (kbd "C-k") 'kill-region)
